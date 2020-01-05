@@ -1,0 +1,27 @@
+<widget id="A6023692067694" version="0.0.1">
+    <name>cx小说</name>
+    <description>
+        cx小说 App.
+    </description>
+    <author email="214089030@qq.com" href="//www.apicloud.com">
+        APICloud.SIR
+    </author>
+    <content src="index.html"/>
+    <access origin="*"/>
+    <preference name="appBackground" value="color|imageUrl"/>
+    <preference name="statusBarAppearance" value="true"/>
+    <preference name="fullScreen" value="true|false"/>
+    <preference name="autoUpdate" value="false"/>
+    <preference name="smartUpdate" value="true"/>
+    <preference name="softInputMode" value="auto"/>
+    <preference name="backgroundMode" value="newsstand-content"/>
+    <preference name="customRefreshHeader" value="UIPullRefresh"/>
+    <preference name="launcher" value="true"/>
+    <feature name="qq">
+        <param name="urlScheme" value="tencent123345678"/>
+        <param name="apiKey" value="123345678"/>
+    </feature>
+    <permission name="record" />
+    <permission name="internet" />
+    <permission name="internet" />
+</widget>
